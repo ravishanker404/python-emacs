@@ -1,0 +1,29 @@
+
+*.pyc
+*.py~
+*.*~
+#*.*#
+.DS_Store
+_build
+.*.sw[po]
+*.egg-info
+dist
+build
+MANIFEST
+.buildinfo
+.tox
+
+.emacs*
+env
+
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+
+ac-comphist.dat
+eproject.lst
