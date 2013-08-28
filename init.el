@@ -6,6 +6,8 @@
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 
+(add-hook 'before-save-hook (lambda () (delete-trailing-whitespace)))
+
 (load-file "~/.emacs.d/emacs-for-python/epy-init.el")
 
 (custom-set-variables
