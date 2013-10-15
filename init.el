@@ -1,17 +1,21 @@
+;;
+;;
+;;Editor settings
 (scroll-bar-mode 0)
 (tool-bar-mode -1)
 (menu-bar-mode -1)
-
 (add-hook 'before-save-hook (lambda () (delete-trailing-whitespace)))
+(setq-default indent-tabs-mode nil)
 
-(load-file "~/.emacs.d/emacs-for-python/epy-init.el")
+;; Theme
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/sublime-themes/")
 (load-theme 'graham t)
 
-(setq-default indent-tabs-mode nil)
-
 (global-set-key (kbd "M-m") 'comment-region)
 (global-set-key (kbd "M-n") 'uncomment-region)
+
+(load-file "~/.emacs.d/emacs-for-python/epy-init.el")
+(load-file "~/.emacs.d/packages.el")
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
