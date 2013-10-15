@@ -23,10 +23,10 @@
 (deftheme graham "A dark color theme for Emacs")
 
 (let ((*background*         "#161A1F")
-      (*comments*           "#615953")
+      (*comments*           "#FFD077")
       (*constant*           "#F38630")
       (*current-line*       "#151515")
-      (*cursor-underscore*  "#FFFAAA")
+      (*cursor-underscore*  "#FFFFFF")
       (*keywords*           "#FFA927")
       (*line-number*        "#061A1F")
       (*method-declaration* "#FFD2A7")
@@ -39,9 +39,9 @@
       (*operators*          "#F38630")
       (*warning*            "#FF6C60")
       (*regexp*             "#E9C")
-      (*string*             "#615953")
+      (*string*             "#FF001E")
       (*variable*           "#C6C5FE")
-      (*visual-selection*   "#1D1F21"))
+      (*visual-selection*   "#8B8200"))
 
   (custom-theme-set-faces
    'graham
@@ -108,4 +108,3 @@
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
-
