@@ -10,6 +10,8 @@
 ;; Theme
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/sublime-themes/")
 (load-theme 'graham t)
+(add-to-list 'load-path  "~/.emacs.d/themes/tomorrow/")
+;; (load-theme 'tomorrow-night t)
 
 ;;Toggle comment and uncomment
 ;; Original idea from  http://www.opensubscriber.com/message/emacs-devel@gnu.org/10971693.html
