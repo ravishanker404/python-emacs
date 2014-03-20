@@ -1,0 +1,108 @@
+((("mark_duplicates" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("duplicate_id" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("alias" .
+   [1 0 0 0 0])
+  ("NotificationType" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("NotificationSettings" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("models" .
+   [1 0 0 0 0 0])
+  ("django_notification" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("model" .
+   [0 0 0 0 1])
+  ("Users" .
+   [0 0 0 0 1])
+  ("Recruitment" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("True" .
+   [1 0 0 0])
+  ("update" .
+   [1 0 0 0 0 0])
+  ("activate_user" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("def" .
+   [1 0 0])
+  ("id" .
+   [1 0])
+  ("unicode" .
+   [1 0 0 0 0 0 0])
+  ("api_reverse" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("site" .
+   [2 0 0 0])
+  ("save" .
+   [2 0 0 0])
+  ("source_object" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("client" .
+   [4 0 0 0 0 0])
+  ("CandidateFactory" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("candidate" .
+   [5 0 0 0 0 0 0 0 0])
+  ("comment3" .
+   [1 0 0 0 0 0 0 0])
+  ("comment2" .
+   [1 0 0 0 0 0 0 0])
+  ("not" .
+   [1 0 0])
+  ("message" .
+   [3 0 0 0 0 0 0])
+  ("name" .
+   [1 0 0 0])
+  ("comment" .
+   [2 0 0 0 0 0 0])
+  ("so" .
+   [1 0])
+  ("title" .
+   [2 0 0 0 0])
+  ("todo" .
+   [9 0 0 1])
+  ("TodoFactory" .
+   [0 0 0 0 0 0 1 1 0 0 0])
+  ("UserFactory" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("import" .
+   [3 0 0 0 0 0])
+  ("factories" .
+   [0 0 0 0 0 0 0 0 1])
+  ("factory" .
+   [0 0 0 0 1 0 0])
+  ("UserManager" .
+   [0 0 0 0 0 0 0 2 0 0 0])
+  ("recruiterbox" .
+   [0 0 0 0 0 0 0 0 0 0 0 2])
+  ("from" .
+   [2 0 0 0])
+  ("created_by" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("ipdb" .
+   [8 0 0 0])
+  ("self" .
+   [9 0 0 0])
+  ("Notification" .
+   [0 0 0 0 0 0 1 0 0 0 0 1])
+  ("sender" .
+   [2 0 0 0 0 0])
+  ("get_person" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("print" .
+   [2 0 0 0 0])
+  ("rendered_messages" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("user" .
+   [5 0 0 0])
+  ("screen_name" .
+   [1 0 0 0 0 1 0 1 0 0 0])
+  ("screen" .
+   [1 0 0 0 0 0])
+  ("try" .
+   [1 0 0])
+  ("except" .
+   [0 0 0 0 1 0])
+  ("pass" .
+   [1 0 0 0])))
