@@ -4,8 +4,18 @@
 
 (load-file "~/.emacs.d/emacs-for-python/epy-init.el")
 
+(require 'uniquify)
+(require 'uniquify)
+(setq uniquify-buffer-name-style 'forward)
+(setq uniquify-separator "/")
+(setq uniquify-after-kill-buffer-p t)    ; rename after killing uniquified
+(setq uniquify-ignore-buffers-re "^\\*") ; don't muck with special buffers
+
 (defun after-init-hook-hook ()
   (load-theme 'monokai)
+  ;; (guru-global-mode +1)
+  (add-hook 'python-mode-hook (lambda ()
+                              (guru-mode +1)))
   ;;(require 'flymake-python-pyflakes)
   ;;(setq flymake-python-pyflakes-executable "/usr/local/bin/flake8")
   ;;(add-hook 'python-mode-hook 'flymake-python-pyflakes-load)
@@ -45,7 +55,6 @@
 (setq pop-up-windows nil)
 (setq use-dialog-box nil)
 (fset 'yes-or-no-p 'y-or-n-p)
-
 
 ;;(load-theme 'monokai t)
 
